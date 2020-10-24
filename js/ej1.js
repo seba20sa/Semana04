@@ -16,4 +16,3 @@ var strFirst = 'Android';
 var strSecond = 'Apple';
 var srtLengthSum = strFirst.length + strSecond.length;
 console.log(srtLengthSum);
-          
