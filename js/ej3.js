@@ -27,4 +27,4 @@ var joinedYear = year.reverse().join('-');
 console.log(joinedYear);
 //G) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
 var slicedYear = year.slice(4,11);
-console.log(slicedYear); 
+console.log(slicedYear);

@@ -6,7 +6,7 @@ function suma(val1,val2) {
     valResult=val1+val2;
     return valResult;
 }
-//examples
+//Examples
 console.log(suma(1,2));
 console.log(suma(-1,0));
 console.log(suma(3.9,10.5));
@@ -22,7 +22,7 @@ function suma(val1,val2) {
         return valResult;
     }
 }
-// some examples
+//Some examples
 console.log(suma('test'));
 console.log(suma(-1,0));
 console.log(suma(3.9,10.5));
@@ -30,7 +30,7 @@ console.log(suma(3.9,10.5));
 // número como parámetro y verdadero si es un número entero.
 function validateInteger(val){
     if (parseInt(val)===val){
-        return true; 
+        return true;
     } else {
         return false;
     }
@@ -56,7 +56,7 @@ function suma(val1,val2) {
         return valResult;
     }
 }
-//examples
+//Examples
 console.log(suma('string',2));
 console.log(suma(-2,7));
 console.log(suma(0.9,7.5));
@@ -75,7 +75,7 @@ function suma(val1,val2) {
     valResult = control(val1)+control(val2);
     return valResult;
 }
-//examples 
+//Examples 
 console.log(suma(-2,7));
 console.log(suma(-2,'string'));
 console.log(suma('',7));
