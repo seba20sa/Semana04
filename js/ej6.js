@@ -26,7 +26,7 @@ function suma(val1,val2) {
 console.log(suma('test'));
 console.log(suma(-1,0));
 console.log(suma(3.9,10.5));
-//C) Crear una función validate integer que reciba un
+/*C) Crear una función validate integer que reciba un
  número como parámetro y verdadero si es un número entero.*/
 function validateInteger(val){
     if (parseInt(val)===val){
