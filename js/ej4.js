@@ -5,7 +5,7 @@ A) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), 
 var x = Math.random();
 console.log(x);
 if (x >= 0.5) {
-    alert('Greater than 0,5')
+    alert('Greater than 0,5');
 } else {
     alert('Lower than 0,5');
 }
@@ -22,11 +22,11 @@ var age = parseInt(100*Math.random());
 console.log(age);
 if (age < 2) {
     alert('Bebe');
-} else if(age >=2 && age <=12) {
+} else if(age >= 2 && age <= 12) {
     alert('Nino');
-} else if (age >=13 && age <=19) {
+} else if (age >= 13 && age <= 19) {
     alert('Adolecente');
-} else if (age >=20 && age <=75) {
+} else if (age >= 20 && age <= 75) {
     alert('Adulto mayor');
 } else {
     alert('Anciano');

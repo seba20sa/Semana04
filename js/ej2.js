@@ -12,13 +12,13 @@ console.log(srtSub);
 /*C) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string
   con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 var srtReverse = 'Lorem ipsu lorem';
-var srtReverseSub = srtReverse.substring(srtReverse.length-3,srtReverse.length);
+var srtReverseSub = srtReverse.substring(srtReverse.length-3,srtReverse.length).toLowerCase();
 console.log(srtReverseSub);
 /*D) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la
   primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva
    variable (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
 var srtExtract = 'el resultado en Una Nueva';
-var srtMix = srtExtract[0].toUpperCase()
+var srtMix = srtExtract[0].toUpperCase();
   +srtExtract.substring(1,srtExtract.length).toLocaleLowerCase();
 console.log(srtMix);
 /*E) Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.

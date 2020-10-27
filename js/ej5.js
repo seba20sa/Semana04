@@ -3,12 +3,12 @@ A) Crear un array que contenga 5 palabras y recorrer
  dicho array utilizando un bucle for de JavaScript para mostrar
   una alerta utilizando cada una de las palabras.*/
 var myArray = ['sodales', 'ultricies', 'hendrerit', 'laoreet', 'lorem'];
-for(var i = 0; i < 5; i++){
+for(var i = 0; i < 5; i++) {
     alert(myArray[i]);
 }
 /*B) Al array anterior convertir la primera letra de cada palabra
  en mayúscula y mostrar una alerta por cada palabra modificada.*/
-for(var i = 0; i < 5; i++){
+for(var i = 0; i < 5; i++) {
     
     alert(myArray[i][0].toUpperCase()+myArray[i].substring(1,myArray[i].length));
 }
